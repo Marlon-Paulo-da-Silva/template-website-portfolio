@@ -611,16 +611,24 @@ main {
   }
   
   #resume .resume-row{
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    margin-top: 35px;
+    flex-direction: column;
   }
   
   #resume .resume-row .resume-cols {
-    flex-basis: 50%;
+    flex-basis: 100%;
   }
+
+
 }
 
 /* Resume Section END */
+
+/* Resume Portfolio START */
+#portfolio{
+  padding: 70px 30px;
+}
+
+/* Resume Portfolio END */
+
+
 
