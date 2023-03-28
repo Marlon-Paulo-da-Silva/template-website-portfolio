@@ -628,6 +628,19 @@ main {
   padding: 70px 30px;
 }
 
+#portfolio .port-row{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 35px;
+}
+
+#portfolio .port-row .port-item{
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
 /* Resume Portfolio END */
 
 
